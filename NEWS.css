@@ -1,0 +1,77 @@
+.d {
+  width: 850px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 40px auto;
+  position: relative;
+  margin-left: 30px;
+}
+  
+.anim {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+  object-fit: cover;
+}
+  
+.anim:hover {
+  transform: scale(1.1);
+}
+  
+.dh2 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 23px;
+  padding: 15px;
+  border-radius: 8px;
+}
+  
+.articles-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+}
+  
+.article-card {
+  width: 250px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+}
+  
+.article-card h5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+  font-size: 15px;
+  width: 100%;
+  margin: 0;
+}
+
+.new {
+  width: 250px; 
+  margin-right: 20px;
+}
+
+a.link h5 {
+  color: black;
+  transition: color 0.1s;
+}
+
+a.link h5:hover {
+  color: #03ab1a;
+}
+
+  
